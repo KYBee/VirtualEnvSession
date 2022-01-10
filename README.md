@@ -17,3 +17,11 @@
 5. make hello app
 - app은 장고 프로젝트의 하나의 기능이라고 생각하면 됨. 인사를 하는 기능을 가진 hello app을 만듬
 - app을 만든 뒤에 프로젝트의 settings.py 파일의 INSTALLED_APP 에 만든 앱을 등록함
+
+6. make hello page
+- 프로젝트 디렉토리의 urls.py 에 hello url pattern 등록 : 이제부터 127.0.0.1:8000/hello로 들어오는 url을 처리할 수 있음
+- hello app 디렉토리에 urls.py 생성
+- hello app 디렉토리의 views.py 에 hello로 들어오는 요청을 다루기 위한 코드 작성
+- hello 라는 요청이 온다면 장고의 View는 Template hello.html을 부르도록 코드 작성
+- hello app 디렉토리의 template 안에 있는 hello.html을 작성하여 사용자에게 어떻게 보여줄지를 작성
+- 127.0.0.1:8000/hello로 접속할 경우에 작성한 html이 보이는 것을 확인할 수 있음
