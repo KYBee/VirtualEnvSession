@@ -1,8 +1,13 @@
 # VirtualEnvSession
 피로그래밍 16기 Django개론 및 가상환경 세션 레퍼지토리
 
+1. install_package
+- .gitignore을 작성하지 않아서 venv가 올라간 상황
+- 이런 상황을 방지하기 위해서 .gitignore을 작성해야 함
+- 이렇게 하면 안된다는 것을 알려드리기 위해 임시적으로 만든 브랜치. 해당 브랜치에 들어가보면 venv가 레퍼지토리에 업로드 되어 있는 것을 볼 수 있음
+
 2. install package with .gitignore
-- .gitignore을 잘 작성해서 venv가 업로드 되지 않음.
+- .gitignore을 잘 작성해서 venv가 업로드 되지 않음
 - Django를 설치하고 requirements.txt를 만듬
 
 3. start django project
