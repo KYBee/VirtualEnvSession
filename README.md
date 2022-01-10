@@ -13,3 +13,7 @@
 - pirogramming16 디렉토리의 urls.py에서 index 요청을 매핑함
 - views.py 를 만들고 index 요청에 대해 어떻게 대처할지 명시함
 - pirogramming16 디렉토리(manage.py)가 있는 디렉토리에서 python manage.py runserver 실행 후, 127.0.0.1:8000 에 접근하면 우리가 정의한 index 페이지가 나오는 것을 확인할 수 있음
+
+5. make hello app
+- app은 장고 프로젝트의 하나의 기능이라고 생각하면 됨. 인사를 하는 기능을 가진 hello app을 만듬
+- app을 만든 뒤에 프로젝트의 settings.py 파일의 INSTALLED_APP 에 만든 앱을 등록함
